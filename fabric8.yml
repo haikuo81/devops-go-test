@@ -1,0 +1,11 @@
+---
+buildName: "devops-go-test-lynn187"
+links:
+  Git: "https://github.com/haikuo81/devops-go-test.git"
+  Job: "http://jenkins.macp.9.110.178.248.nip.io/job/devops-go-test-lynn187"
+  Production: "http://10.253.91.31:80/kubernetes/pods?namespace=macp-production"
+  Staging: "http://10.253.91.31:80/kubernetes/pods?namespace=macp-staging"
+environments:
+  Staging: "macp-staging"
+  Production: "macp-production"
+useLocalFlow: true
